@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>NY Times Search</title>
+</head>
+
+<body style="background-color: rgb(142, 240, 207);" <div class="jumbotron text-center font: strong ">
+    <h1>New York Times Search</h1>
+    </div>
+    <div class="formDiv" style="padding-left: 10px; padding-bottom: 15px; margin-left: 313px; text-align: left;">
+        <form>
+            <div class="form-group">
+                <label for="sTerm">Search Term:</label>
+                <input type="text" id="sTerm" name="sTerm"><br>
+            </div>
+            <div class="form-group">
+                <label for="getRecords">Number of Records to Retrieve:</label>
+                <input type="text" id="getRecords" name="getRecords"><br>
+            </div>
+            <div class="form-group">
+                <label for="startYear">Start Year (Optional):</label>
+                <input type="text" id="startYear" name="startYear"><br>
+            </div>
+            <div class="form-group">
+                <label for="endYear">End Year (Optional):</label>
+                <input type="text" id="endYear" name="endYear"><br>
+            </div>
+        </form>
+    </div>
+    <div class="buttons" style="padding-left: 10px;">
+        <button class="search" style="background: rgb(36, 240, 247);"><i class="fas fa-search"></i> Search</button>
+        <button class="clearResults" style="background: rgb(36, 240, 247);"><i class="fas fa-trash-alt"></i> Clear
+            Results</button>
+    </div>
+    <br>
+    <div class="returnedArticles">
+        <p style="padding-left: 10px;"><i class="fas fa-th"></i> Top Articles</p>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
